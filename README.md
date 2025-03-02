@@ -1,13 +1,9 @@
-# Mbed CE Hello World
-This project implements a basic hello world using Mbed OS Community Edition.  Use it as an example or a starting place for your own projects!
+# Mbed CE My 1st project Elecrow e-Paper
+This project is Elecrow e-Paper control.
 
-## How to set up this project:
+## Elecrow e-Paper
+* 2.9 inch E-paper Display 128*296 Black/White E-Ink Display
+* https://www.elecrow.com/2-9-inch-e-paper-display-128-296-black-white-e-ink-display-with-spi-communication.html
+* 4 wire SPI Communication
+* Driver is SSD1680
 
-1. Clone it to your machine.  Don't forget to use `--recursive` to clone the submodules: `git clone --recursive https://github.com/mbed-ce/mbed-ce-hello-world.git`
-2. You may want to update the mbed-os submodule to the latest version, with `cd mbed-ce-hello-world/mbed-os && git fetch origin && git reset --hard origin/master`
-3. Set up the GNU ARM toolchain (and other programs) on your machine using [the toolchain setup guide](https://github.com/mbed-ce/mbed-os/wiki/Toolchain-Setup-Guide).
-4. Set up the CMake project for editing.  We have three ways to do this:
-    - On the [command line](https://github.com/mbed-ce/mbed-os/wiki/Project-Setup:-Command-Line)
-    - Using the [CLion IDE](https://github.com/mbed-ce/mbed-os/wiki/Project-Setup:-CLion)
-    - Using the [VS Code IDE](https://github.com/mbed-ce/mbed-os/wiki/Project-Setup:-VS-Code)
-5. Build the `flash-HelloWorld` target to upload the code to a connected device.
