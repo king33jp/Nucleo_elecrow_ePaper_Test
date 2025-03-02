@@ -1,0 +1,14 @@
+# VS Code build dir
+build/
+
+# VS Code config files
+.vscode/
+
+# Python stuff
+*.pyc
+
+# Mac stuff
+.DS_Store
+
+# mbed-os
+mbed-os/
